@@ -1,4 +1,7 @@
 # gin-cross-middleware
+[![Build Status](https://travis-ci.org/jayhuang75/gin-cross-middleware.svg?branch=master)](https://travis-ci.org/jayhuang75/gin-cross-middleware)
+[![codecov](https://codecov.io/gh/jayhuang75/gin-cross-middleware/branch/master/graph/badge.svg)](https://codecov.io/gh/jayhuang75/gin-cross-middleware)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jayhuang75/gin-cross-middleware)](https://goreportcard.com/report/github.com/jayhuang75/gin-cross-middleware)
 
 ## What is Cross-domain?
 Cross-domain more information: 
