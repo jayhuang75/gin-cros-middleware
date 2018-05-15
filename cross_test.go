@@ -1,4 +1,4 @@
-package cros
+package cross
 
 import (
 	"net/http"
@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestCORSMiddleware(t *testing.T) {
+func TestMiddleware(t *testing.T) {
 
 	// Switch to test mode so you don't get such noisy output
 	gin.SetMode(gin.TestMode)
@@ -18,7 +18,7 @@ func TestCORSMiddleware(t *testing.T) {
 	// Setup your router, just like you did in your main function, and
 	// register your routes
 	r := gin.Default()
-	r.Use(CORSMiddleware)
+	r.Use(Middleware)
 	r.GET("/api")
 
 	////////////////////////////////////

@@ -1,4 +1,4 @@
-# gin-cros-middleware
+# gin-cross-middleware
 ## What is Cross-domain?
 Cross-domain more information: 
 [https://en.wikipedia.org/wiki/Cross-domain_solution](https://en.wikipedia.org/wiki/Cross-domain_solution)
@@ -6,13 +6,13 @@ Cross-domain more information:
 ## How to use this?
 #### Install package
 ```bash
-$ go get github.com/jayhuang75/gin-cros-middleware
+$ go get github.com/jayhuang75/gin-cross-middleware
 ```
 
 #### In your gin application main.go, import the package
 ```go
 import (
-    "github.com/jayhuang75/gin-cros-middleware"
+    "github.com/jayhuang75/gin-cross-middleware"
 )
 ```
 
@@ -20,5 +20,5 @@ import (
 ```go
 app := gin.Default()
 
-app.Use(cros.CORSMiddleware())
+app.Use(cros.Middleware())
 ```

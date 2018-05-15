@@ -1,4 +1,4 @@
-package cros
+package cross
 
 import (
 	"fmt"
@@ -6,8 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// CORSMiddleware request header
-func CORSMiddleware(c *gin.Context) {
+// Middleware request header
+func Middleware(c *gin.Context) {
 	c.Writer.Header().Set("Access-Control-Allow-Origin", "*")
 	c.Writer.Header().Set("Access-Control-Max-Age", "86400")
 	c.Writer.Header().Set("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PUT, DELETE, UPDATE")
