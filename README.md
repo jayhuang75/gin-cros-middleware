@@ -20,5 +20,5 @@ import (
 ```go
 app := gin.Default()
 
-app.Use(cros.Middleware())
+app.Use(cross.Middleware())
 ```
